@@ -5,10 +5,10 @@ $quantidade = count($frutas);
 
 
 //WHILE
-$c = 0;
+$c = 0;  //contador fora do laço de repetição
 while ($c < $quantidade) {
     echo"<p> $frutas[$c] </p>";
-    $c++;
+    $c++; // incremento dentro do laçp
 
 }
 
@@ -17,5 +17,5 @@ echo"<hr>";
 $contador = 0;
 do {
     echo"<p> $frutas[$contador]</p>";
-    $contador++;
+    $contador++;  // incremento dentro do laço
 } while ($contador < $quantidade);
